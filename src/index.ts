@@ -48,6 +48,7 @@ const FEEDS: Record<string, FeedDef> = {
   medscape: { title: "Medscape", url: "https://www.medscape.com/cx/rssfeeds/2700.xml", category: "health", source: "medscape.com", description: "Medical news for clinicians" },
   'fierce-healthcare': { title: "Fierce Healthcare", url: "https://www.fiercehealthcare.com/rss/xml", category: "health", source: "fiercehealthcare.com", description: "Healthcare-industry news" },
   'kff-health': { title: "KFF Health News", url: "https://kffhealthnews.org/feed/", category: "health", source: "kffhealthnews.org", description: "Health-policy journalism (KFF)" },
+  medrxiv: { title: "medRxiv", url: "http://connect.medrxiv.org/medrxiv_xml.php?subject=all", category: "health", source: "medrxiv.org", description: "medRxiv medical & health-sciences preprints (all subjects)" },
 };
 
 const tools: McpToolExport['tools'] = [

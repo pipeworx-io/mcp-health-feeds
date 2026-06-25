@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/health-feeds",
   "title": "Health Feeds",
   "description": "Health Feeds MCP.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/health-feeds",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-health-feeds",
