@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-health-feeds",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Health Feeds MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-802a0bfcedc27c626c97b32b36dd8f91e9908828f80cfcc4ca4f65e7fa8d200f",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-e6e9abf2ddfdad60e431f27037ffbf7dbd72153145c0312e3c5327ffd55c9a12",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
