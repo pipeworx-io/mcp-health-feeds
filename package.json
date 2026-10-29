@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-health-feeds",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Health Feeds MCP.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-health-feeds": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "health-feeds"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-health-feeds.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/health-feeds",
   "pipeworx": {
-    "sourceHash": "v1-17028a424aae855c6b0c3a2b0af2f9803a7328570b0e954e1f77259f4fe6a5df",
-    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
+    "mode": "gateway",
+    "slug": "health-feeds",
+    "gatewaySlug": "health-feeds",
+    "sourceHash": "v1-31d05fed0b1b672ebaebd3d5b7b6e7a7ed75a0ab14ff89a00fc13fdc698c9e47",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
