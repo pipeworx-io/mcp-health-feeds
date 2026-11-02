@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-health-feeds",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Health Feeds MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "health-feeds",
     "gatewaySlug": "health-feeds",
-    "sourceHash": "v1-31d05fed0b1b672ebaebd3d5b7b6e7a7ed75a0ab14ff89a00fc13fdc698c9e47",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-a027cc024c1cca53818b84a4e9f80f881d181710a85d9f99b8c0be3ca15741c7",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
